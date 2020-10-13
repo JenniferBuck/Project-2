@@ -38,8 +38,10 @@ body {
 }
 
 .prime-head-main {
+    overflow: hidden;
+    white-space: nowrap;
 	display: block;
-	font-size: 60px;
+	font-size: 70px;
 	font-weight: 400;
 	letter-spacing: 33px;
 	animation-name: moveInLeft;
@@ -48,6 +50,8 @@ body {
 }
 
 .prime-head-second {
+    font-family: 'Dancing Script', cursive;
+    text-transform: capitalize;
 	display: block;
 	font-size: 20px;
 	font-weight: 400;
